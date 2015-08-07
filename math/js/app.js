@@ -5,12 +5,22 @@
 (function(){
         var app = angular.module('flashcard', []);
 
-        app.controller('TeamController', ['$http', '$scope', function($http, $scope){
-            var liste = this;
-            $scope.liste = {};
-            $scope.liste.teams = [];
-            $http.get('teams.json').success(function(data){
-                $scope.liste.teams = data;
-            });
-        }]);
+        // a simple working copy
+        //app.controller('TeamController', ['$http', '$scope', function($http, $scope){
+        //    var liste = this;
+        //    $scope.liste = {};
+        //    $scope.liste.teams = [];
+        //    $http.get('teams.json').success(function(data){
+        //        $scope.liste.teams = data;
+        //    });
+        //}]);
+
+    app.controller('cardController', ['$http', '$scope', function($http, $scope){
+        var liste = this;
+        $scope.list = {};
+        $scope.list.cards = [];
+        $http.get('json/calculus.json').success(function(data){
+            $scope.list.cards = data;
+        });
+    }]);
     })();

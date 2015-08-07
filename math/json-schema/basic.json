@@ -1,0 +1,31 @@
+{
+  "title": "flashcard",
+  "type": "object",
+  "id": "flashcard",
+  "flashcard": {
+    "type": "array",
+    "format": "table",
+    "title": "Flash Crad",
+    "uniqueItems": true,
+    "items": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "computer science",
+            "math"
+          ],
+          "default": "computer science"
+        },
+        "name": {
+          "type": "string"
+        },
+        "overleaf": {
+          "type": "string"
+        }
+
+      }
+    }
+  }
+  }

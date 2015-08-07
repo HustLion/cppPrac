@@ -1,6 +1,8 @@
 # cppPrac
 This repo is for my c++ practice and algorithm practice. In English and Chinese. Simply put, I use stackedit to record things I learnt and put useful things to quizlet and use online code judges to practice algorithm and C++ skills. On my way, I may gradually develop some custom apps but as a beginner I will use existing tools properly.
 
+No I can't stand that... most of them can't not simutaneously support advanced math formulas and program syntax.. Do it myself with syntax highlighting...
+
 Memorization Workflow: 
 
 1. Read books and gather info 
@@ -18,6 +20,12 @@ Practice  Workflow:
 4. record result
 5. extract valuable memorization materials
 
+To truly understand the tools I use here, need to read both documentations and source code of them:
+
+1. json-editor
+2. jquery
+3. angular.js
+4. stackedit...
 
 Train C++ and algorithm and math and possibly politics:
 Edit memorize.com with my github backup. Do it with windows.
@@ -65,13 +73,26 @@ https://github.com/duckoteka/MathPad
 http://appadvice.com/appnn
 http://www.makeuseof.com/
 http://www.mifengtd.cn/
-
+http://foundation.zurb.com/
 
 
 
 # Flashcard app => on hold, since we have Quizlet
 The one that is most close to what I'm thinking: https://github.com/thormartin91/flashcard
 
+Store json, show then with a button to toggle the content. Later add syntax highlighting and others.
+json. angular. stackedit. syntax highlight. emoji. nodejs. cloud9... and all of them are browser-based.
+jQueryUI, bootstrap.
+
+Data structure:
+{
+    "type-setOneTime": "math or computer science or somehting",
+    "title": "the face of the flashcard, can be duplicated",
+    "content": "the overleaf",
+    "id-auto": "for sorting or something, should be unique"
+    }
+    
+MVC? MVVC? Not yet I guess...
 
 Others:
 https://github.com/iambrandonn/FlashCards
@@ -86,7 +107,7 @@ http://plnkr.co/
 ## Develop Plan
 Afer step 2, I can use this flashcard app to help with my graduate exam.
 
-* Step 1: Write json data with editor and manually copy and save. - done
+* Step 1: Write json data with editor and manually copy and save. - partially done => bug: doesn't support multiline edit.. No syntax highlighting... After clicking `new item`, doesn't generate structure according to the template.
 * Step 2: Show json data in browser with the json data I wrote. - developing
 * Step 3: Show json data in browser with data fetched from my Heroku app. => refer to https://github.com/thormartin91/flashcard
 * Step 4: Edit and save data to Heroku app. => refer to https://github.com/thormartin91/flashcard

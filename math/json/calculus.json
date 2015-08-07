@@ -1,0 +1,19 @@
+{
+  "flashcard": [
+    {
+      "name": "链表节点的结构型定义",
+      "overleaf": "typedef struct Node {  int data;  struct Node *next; }Node;  目前将两个Node都写成一样的",
+      "type": "computer science"
+    },
+    {
+      "name": "二叉树节点的定义",
+      "overleaf": "typedef struct BTNode {  int data;  struct BTNode *lchild;  struct BTNode *rchild; }BTNode;",
+      "type": "computer science"
+    },
+    {
+      "name": "利用空间申请函数申请二叉树节点",
+      "overleaf": "BTNode *BT; BT = (BTNode*)malloc(sizeof(BTNode));",
+      "type": "computer science"
+    }
+  ]
+}

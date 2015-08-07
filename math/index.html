@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app>
+<html ng-app="flashcard">
 <head lang="en">
     <meta charset="UTF-8">
     <title></title>
@@ -12,11 +12,51 @@
 <p>When $a \ne 0$, there are two solutions to \(ax^2 + bx + c = 0\) and they are
     $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$</p>
 <p>Hello {{'World'}}!</p>
-<div id="wrap" ng-controller="TeamController">
+<!--A simple working copy-->
+<!--<div id="wrap" ng-controller="TeamController">-->
+    <!--<div class="container">-->
+        <!--<div >-->
+            <!--<ul>-->
+                <!--<li ng-repeat="team in liste.teams">{{team.name + " - " + team.win}}</li>-->
+            <!--</ul>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</div>-->
+
+
+<div id="wrap" ng-controller="cardController">
     <div class="container">
         <div >
+            数据结构
             <ul>
-                <li ng-repeat="team in liste.teams">{{team.name + team.win}}</li>
+                <li ng-repeat="card in list.cards.flashcard">{{card.name + " - " + card.overleaf}}</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <div >
+            微积分
+            <ul>
+                <li ng-repeat="card in list.cards.flashcard">{{card.name + " - " + card.overleaf}}</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <div >
+            Angular.js syntax
+            <ul>
+                <li ng-repeat="card in list.cards.flashcard">{{card.name + " - " + card.overleaf}}</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <div >
+            HTML+CSS syntax
+            <ul>
+                <li ng-repeat="card in list.cards.flashcard">{{card.name + " - " + card.overleaf}}</li>
             </ul>
         </div>
     </div>
