@@ -1,7 +1,7 @@
-# cppPrac
-This repo is for my c++ practice and algorithm practice. In English and Chinese. Simply put, I use stackedit to record things I learnt and put useful things to quizlet and use online code judges to practice algorithm and C++ skills. On my way, I may gradually develop some custom apps but as a beginner I will use existing tools properly.
+# cppPrac -> on hold. cpp stored with oj and others things by brainscape with exporting service.
+This repo is for my c++ practice and algorithm practice. In English and Chinese. Simply put, I use sublime text 3 to record things I learnt and get screenshot and put useful things to brainscape and use online code judges to practice algorithm and C++ skills. On my way, I may gradually develop some custom apps but as a beginner I will use existing tools properly.
 
-No I can't stand that... most of them can't not simutaneously support advanced math formulas and program syntax.. Do it myself with syntax highlighting...
+
 
 Memorization Workflow: 
 
@@ -78,7 +78,21 @@ http://foundation.zurb.com/
 
 
 
-# Flashcard app => on hold, since we have Quizlet
+# Flashcard app => on hold, since we have Brainscape + (Cram.com and Quizlet.com and <http://ankisrs.net/>)
+Pay attention to this open source app if want to continue: <http://mnemosyne-proj.org/>.
+
+A complete (maybe?) list of available apps <https://en.wikipedia.org/wiki/List_of_flashcard_software>
+
+A very elegant one but not available in China <http://www.mentalcaseapp.com/>
+
+Repetitions with cards from Cram.com and Quizlet.com and <http://ankisrs.net/>
+
+Repetitions supports LaTeX well (in browser but not in iOS). If can't find others, then use a parser to generate highlighted code and paste it in the card. <http://www.cobocards.com> supports it also, with buttons but the user interface is not appealing and it charges.
+
+Can learn from this open source flashcard app: <http://mnemosyne-proj.org/>. This is a powerful one with plugins. Can tweak any part I like.
+
+No I can't stand that... most of them can't not simutaneously support advanced math formulas and program syntax.. Do it myself with syntax highlighting...
+
 The one that is most close to what I'm thinking: https://github.com/thormartin91/flashcard
 
 Store json, show then with a button to toggle the content. Later add syntax highlighting and others.
