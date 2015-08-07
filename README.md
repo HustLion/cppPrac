@@ -20,12 +20,13 @@ Practice  Workflow:
 4. record result
 5. extract valuable memorization materials
 
-To truly understand the tools I use here, need to read both documentations and source code of them:
+To truly understand the tools I use here, need to read documentations and/or source code of them:
 
 1. json-editor
 2. jquery
 3. angular.js
 4. stackedit...
+5. CMake, npm, bower...
 
 Train C++ and algorithm and math and possibly politics:
 Edit memorize.com with my github backup. Do it with windows.
@@ -108,7 +109,7 @@ http://plnkr.co/
 Afer step 2, I can use this flashcard app to help with my graduate exam.
 
 * Step 1: Write json data with editor and manually copy and save. - partially done => bug: doesn't support multiline edit.. No syntax highlighting... After clicking `new item`, doesn't generate structure according to the template.
-* Step 2: Show json data in browser with the json data I wrote. - developing
+* Step 2: Show json data in browser with the json data I wrote. - partially done => no stylying now. 
 * Step 3: Show json data in browser with data fetched from my Heroku app. => refer to https://github.com/thormartin91/flashcard
 * Step 4: Edit and save data to Heroku app. => refer to https://github.com/thormartin91/flashcard
 * Step 5: Enable user management feature with my Heroku app.

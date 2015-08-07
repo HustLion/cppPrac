@@ -1,0 +1,22 @@
+{
+  "name": "cppprac",
+  "version": "1.0.0",
+  "description": "this repo is for my c++ practice and algorithm practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HustLion/cppPrac.git"
+  },
+  "keywords": [
+    "practice"
+  ],
+  "author": "Hustlion",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HustLion/cppPrac/issues"
+  },
+  "homepage": "https://github.com/HustLion/cppPrac#readme"
+}
