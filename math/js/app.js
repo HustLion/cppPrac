@@ -23,4 +23,15 @@
             $scope.list.cards = data;
         });
     }]);
+
+    app.controller('cardController400', ['$http', '$scope', function($http, $scope){
+        var liste = this;
+        $scope.list = {};
+        $scope.list.cards = [];
+        $http.get('json/400.json').success(function(data){
+            $scope.list.cards = data;
+        });
+    }]);
+
+
     })();

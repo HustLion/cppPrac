@@ -22,7 +22,8 @@
           "type": "string"
         },
         "overleaf": {
-          "type": "string"
+          "type": "string",
+          "format": "textarea"
         }
 
       }

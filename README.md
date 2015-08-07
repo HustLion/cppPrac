@@ -22,11 +22,11 @@ Practice  Workflow:
 
 To truly understand the tools I use here, need to read documentations and/or source code of them:
 
-1. json-editor
-2. jquery
-3. angular.js
-4. stackedit...
-5. CMake, npm, bower...
+1. json-editor => multiline, syntax highlighting, style
+2. jquery => getJSON function
+3. angular.js => app structure, $scope
+4. stackedit... => app structure, import/export, automatic real-time update, web storage...
+5. CMake, npm, bower... => project management.
 
 Train C++ and algorithm and math and possibly politics:
 Edit memorize.com with my github backup. Do it with windows.
@@ -114,6 +114,12 @@ Afer step 2, I can use this flashcard app to help with my graduate exam.
 * Step 4: Edit and save data to Heroku app. => refer to https://github.com/thormartin91/flashcard
 * Step 5: Enable user management feature with my Heroku app.
 * Step 6: Enable public and private flashcard.
+
+TASK now (1h/day):
+
+1. understand json-editor. redirecting to specific language details. most urgent: syntax problem. but I can write plain things for now.
+
+2. syntax support(isolate from html tags), a little style, toggle the overleaf.
 
 Step 1:
 
